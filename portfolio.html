@@ -1,1 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio_anjika</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/434efcef7c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+               
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I am  <span>Anjika</span> Prasad<br> from India</h1>
+            </div>
+        </div>
+    </div>
 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/image2.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A first year student at VIT Vellore pursuing BTech in IT . Striving to be better at tech as each day passes. An avid learner who has a hold of Web dev and the enthusiasm for continuous growth. I have yet to decide the tech domain which has my heart but till then I'll be exploring everything I come across . Would love to talk to new people about their interests and their work. Feel free to dm me!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Machine Learning</span><br>Creating machine learning models</li> 
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>July 2024 - Current</span><br>Core member of IEEE WIE</li>
+                            <li><span>Oct 2024 - Nov 2024</span><br>POC of Switchuation-IEEE WIE in gravitas</li>
+                            <li><span>July 2024 - Oct 2024</span><br>UI UX intern at Moonfinace</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Current</span><br>Btech Information Technology VIT Vellore cgpa: 9.67</li> 
+                            <li><span>2022</span><br>Passed 12th grade with 93%</li>
+                            <li><span>2020</span><br>Passed 10th grade with 96.6%</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Web Design</h2>
+                <p>I create clean, responsive, and visually captivating websites that prioritize user experience and brand identity. With a focus on modern aesthetics and functionality, I ensure your website not only looks great but also performs seamlessly across all devices. Let’s build a digital space that truly represents your vision!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>I bring designs to life with clean, efficient, and scalable code. From interactive user interfaces to robust backend solutions, I craft websites that are not only visually appealing but also highly functional. Let’s turn your ideas into a dynamic online presence!
+                </p>
+                <a href="#">Learn More</a>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2>Machine Learning </h2>
+                <p>Harnessing the power of data to build intelligent solutions that adapt and evolve. I develop machine learning models tailored to solve real-world problems, enabling predictive insights, automation, and smarter decision-making. Let’s innovate together with the power of AI!
+                </p>
+                <a href="#">Learn More</a>
+
+            </div> 
+        </div>
+    </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/coding.jpg">
+                    <div class="layer">
+                        <h3>Social Media Apps</h3>
+                        <p>Cloned a lot of famous social media apps and added functional features to make it better than it already is!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/coding3.jpg">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>This is the project you are currently looking. I hope I can add more genuine work on my own website.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/coding2.jpg">
+                    <div class="layer">
+                        <h3>Gaming Website</h3>
+                        <p>It is a collection of all the js games you can find on internet.I hope my logic building skills get better.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>anjikapd9106@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i></p>8690656938
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-square-pinterest"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i> </a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="Images/Hitanshi Resume.docx" download class="btn btn2">Download CV</a>
+
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Anjika Prasad. All rights reserved.</p>
+        </div>
+    </div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(let tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(let tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+  
+</body>
+</html>
